@@ -1,0 +1,51 @@
+@media screen and (max-width: 640px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #gauche {
+        width: 100%;
+        height: auto;
+    
+        padding: 100px 50px 20px 25px;
+        }
+
+        .reviewer {
+            font-size: 20px;
+            color: #52525A;
+            padding: 10px 80px 10px 0px;
+        }
+
+    #droite {
+        width: 100%;
+        height: auto;
+    
+        padding: 10px 50px 100px 50px;
+    }
+
+    .contenuDroite {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 40px;
+        grid-template-rows: 2fr 2fr;
+
+        padding: 0px 25px 0px 25px;
+    }
+    
+    .google {
+        border-radius: 10px;
+        background-color: #FFFFFF;
+    
+        grid-column: 2 / 4;
+        grid-row: 1;
+    }
+
+    .meta {
+        border-radius: 10px;
+        background-color: #FFFFFF;
+    
+        grid-column: 1 / 3;
+        grid-row: 2;
+    }
+}
